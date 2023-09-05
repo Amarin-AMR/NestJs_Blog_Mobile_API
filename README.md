@@ -24,13 +24,19 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+This Project made for Blog mobile application (Flutter) => https://github.com/dragonarm007/blog_mobile
 
-## Installation
+I use NestJs in this project. And I also use docker to contain database inside (PostgreSQL).
+And Also use Prisma.
 
-```bash
-$ npm install
-```
+
+## Start
+
+You have to run this command.
+
+" docker compose up "
+
+To open docker container and run it.
 
 ## Running the app
 
@@ -45,18 +51,6 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-## Test
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
 
 ## Support
 
